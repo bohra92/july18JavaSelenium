@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.demoaut.newtours.reporter.JyperionListener"/>
+  </listeners>
+  <test name="Default Test(failed)">
+    <classes>
+      <class name="com.demoaut.newtours.tests.RegisterUserTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="registerUserWithCorrectCreds"/>
+          <include name="openBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.demoaut.newtours.tests.RegisterUserTest -->
+    </classes>
+  </test> <!-- Default Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
